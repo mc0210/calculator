@@ -1,0 +1,55 @@
+#container {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+#display {
+    flex: 1;
+    background-color: white;
+    border: solid lightblue 2px;
+    border-radius: 2px;
+    margin: 4px;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    flex: 1;
+    background-color: rgba(211, 211, 211, .3);
+    border: solid lightblue 2px;
+    border-radius: 2px;
+    margin: 4px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.operator {
+    background-color: aquamarine;
+}
+
+.operator:active{
+    flex: 1;
+    background-color: rgba(211, 211, 211, .8);
+    border: solid lightblue 2px;
+    border-radius: 2px;
+    margin: 4px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#\= {
+    background-color: rgb(47, 171, 205);
+}
